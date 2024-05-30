@@ -5,6 +5,8 @@ import { AppModule } from './app.module';
 import { HomeComponent } from './home/home.component';
 import { OderComponent } from './oder/oder.component';
 import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 @NgModule({
   imports: [
     AppModule, // Thêm AppModule vào đây
@@ -13,7 +15,9 @@ import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
   bootstrap: [
     // HomeComponent,
     //OderComponent,
-    OrderConfirmComponent
+    //OrderConfirmComponent,
+    //LoginComponent,
+    RegisterComponent
   ],
 })
 export class AppServerModule {}

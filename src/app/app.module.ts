@@ -7,6 +7,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
 import { OderComponent } from './oder/oder.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { OderComponent } from './oder/oder.component';
     FooterComponent,
     OderComponent,
     ProductDetailComponent,
-    OrderConfirmComponent
+    OrderConfirmComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +31,9 @@ import { OderComponent } from './oder/oder.component';
     //HomeComponent,
     //ProductDetailComponent,
     //OderComponent,
-    OrderConfirmComponent
+    // OrderConfirmComponent,
+    //LoginComponent.
+    RegisterComponent
   ]
 })
 export class AppModule { }
