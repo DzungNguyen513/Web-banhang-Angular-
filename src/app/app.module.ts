@@ -29,11 +29,11 @@ import { RegisterComponent } from './register/register.component';
   ],
   bootstrap: [
     //HomeComponent,
-    //ProductDetailComponent,
+    ProductDetailComponent,
     //OderComponent,
     // OrderConfirmComponent,
     //LoginComponent.
-    RegisterComponent
+   //RegisterComponent
   ]
 })
 export class AppModule { }

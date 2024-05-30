@@ -7,6 +7,7 @@ import { OderComponent } from './oder/oder.component';
 import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 @NgModule({
   imports: [
     AppModule, // Thêm AppModule vào đây
@@ -17,7 +18,8 @@ import { RegisterComponent } from './register/register.component';
     //OderComponent,
     //OrderConfirmComponent,
     //LoginComponent,
-    RegisterComponent
+    //RegisterComponent,
+    ProductDetailComponent
   ],
 })
 export class AppServerModule {}
