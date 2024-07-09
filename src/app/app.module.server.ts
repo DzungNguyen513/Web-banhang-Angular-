@@ -2,24 +2,26 @@ import { NgModule } from '@angular/core';
 import { ServerModule } from '@angular/platform-server';
 
 import { AppModule } from './app.module';
-import { HomeComponent } from './home/home.component';
-import { OderComponent } from './oder/oder.component';
-import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { HomeComponent } from './components/home/home.component';
+import { OderComponent } from './components/oder/oder.component';
+import { OrderConfirmComponent } from './components/order-confirm/order-confirm.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { ProductDetailComponent } from './components/product-detail/product-detail.component';
+import { AppComponent } from './app/app.component';
 @NgModule({
   imports: [
     AppModule, // Thêm AppModule vào đây
     ServerModule,
   ],
   bootstrap: [
+    AppComponent,
     // HomeComponent,
     //OderComponent,
-    //OrderConfirmComponent,
+    // OrderConfirmComponent,
     //LoginComponent,
     //RegisterComponent,
-    ProductDetailComponent
+    //ProductDetailComponent
   ],
 })
 export class AppServerModule {}
